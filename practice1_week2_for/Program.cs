@@ -34,11 +34,9 @@ class Program
         }
 
         Console.WriteLine("----------------");
-        Console.WriteLine("----------------");
-        Console.WriteLine("----------------");
 
         //3 -> 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.Yalnızca forla:
-        for (int i = 2; i < 21; i+=2)
+        for (int i = 2; i < 21; i += 2)
         {
             Console.WriteLine(i);
         }
@@ -53,7 +51,7 @@ class Program
         {
             toplam += i;
         }
-        Console.WriteLine("50 ile 150 arasındaki sayıların toplamı " + toplam);
+        Console.WriteLine("50 ile 150 arasındaki sayıların toplamı: " + toplam);
 
         Console.WriteLine("----------------");
         Console.WriteLine("----------------");
@@ -82,9 +80,27 @@ class Program
         Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplam3}");
 
         Console.WriteLine("----------------");
+
+        //5 -> 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız. Daha sade hali:
+
+        int toplamCift = 0;
+        int toplamTek = 0;
+
+        for (int i = 1; i < 121; i++)
+        {
+            if (i%2==0)
+            {
+                toplamCift += i;
+            }else
+            {
+                toplamTek += i;
+            }
+        }
+        Console.WriteLine($"1 ile 120 arasındaki çift sayıların toplamı: {toplamCift}");
+        Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplamTek}");
+
         Console.WriteLine("----------------");
-        Console.WriteLine("----------------");
-        
+
         //5 -> 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.Yalnızca forla:
 
         int toplam4 = 0;
@@ -100,5 +116,22 @@ class Program
             toplam5 += i;
         }
         Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplam5}");
+
+        Console.WriteLine("----------------");
+
+        //5 -> 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.Yalnızca forla daha sade:
+
+        int toplamCift2 = 0;
+        int toplamTek2 = 0;
+        for (int i = 1; i < 121; i+=2)
+        {
+            toplamCift2 += i + 1;
+            toplamTek2 += i;
+        }
+        Console.WriteLine($"1 ile 120 arasındaki çift sayıların toplamı: {toplamCift2}");
+        Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplamTek2}");
+
+
+
     }
 }
