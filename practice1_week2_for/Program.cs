@@ -24,22 +24,21 @@ class Program
         Console.WriteLine("----------------");
         Console.WriteLine("----------------");
 
-        //3 -> 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.
-        for (int i = 1; i < 21; i++)
+        //3 -> 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.Yalnızca forla:
+        for (int i = 2; i < 21; i += 2)
+        {
+            Console.WriteLine(i);
+        }
+
+        /*
+         for (int i = 1; i < 21; i++)
         {
             if (i % 2 == 0)
             {
                 Console.WriteLine(i);
             }
         }
-
-        Console.WriteLine("----------------");
-
-        //3 -> 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.Yalnızca forla:
-        for (int i = 2; i < 21; i += 2)
-        {
-            Console.WriteLine(i);
-        }
+        */
 
         Console.WriteLine("----------------");
         Console.WriteLine("----------------");
@@ -57,6 +56,7 @@ class Program
         Console.WriteLine("----------------");
         Console.WriteLine("----------------");
 
+        /*
         //5 -> 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.
         int toplam2 = 0;
         for (int i = 1; i < 121; i++)
@@ -118,6 +118,7 @@ class Program
         Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplam5}");
 
         Console.WriteLine("----------------");
+        */
 
         //5 -> 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.Yalnızca forla daha sade:
 
