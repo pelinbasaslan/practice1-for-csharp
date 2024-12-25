@@ -1,0 +1,31 @@
+# macOS'tan gelen dosyaları yoksay
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VSCode tarafından oluşturulan dosyalar
+.vscode/
+
+# Bin ve obj klasörlerini hariç tut
+bin/
+obj/
+
+# .NET Core derleme çıktıları
+bin/
+obj/
+
+# Visual Studio tarafından oluşturulan dosyalar
+.vs/
+
+# Paket yöneticisi bağımlılıkları
+.nuget/
+packages/
+
+# C# ile ilgili IDE ve araçlara ait geçici dosyalar
+.idea/
+
+# Log dosyaları
+*.log
+
+# Windows ve diğer geçici dosyalar
+Thumbs.db
