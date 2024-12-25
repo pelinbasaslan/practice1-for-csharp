@@ -37,8 +37,17 @@ class Program
         Console.WriteLine("----------------");
         Console.WriteLine("----------------");
 
-        //4 -> 50 ile 150 arasındaki sayıların toplamını ekrana yazdırınız.
+        //3 -> 1 ile 20 arasındaki çift sayıları konsol ekranına yazdırınız.Yalnızca forla:
+        for (int i = 2; i < 21; i+=2)
+        {
+            Console.WriteLine(i);
+        }
 
+        Console.WriteLine("----------------");
+        Console.WriteLine("----------------");
+        Console.WriteLine("----------------");
+
+        //4 -> 50 ile 150 arasındaki sayıların toplamını ekrana yazdırınız.
         int toplam = 0;
         for (int i = 50; i < 151; i++)
         {
@@ -72,6 +81,10 @@ class Program
         }
         Console.WriteLine($"1 ile 120 arasındaki tek sayıların toplamı: {toplam3}");
 
+        Console.WriteLine("----------------");
+        Console.WriteLine("----------------");
+        Console.WriteLine("----------------");
+        
         //5 -> 1 ile 120 arasındaki tek ve çift sayıların toplamlarını ayrı ayrı ekrana yazdırınız.Yalnızca forla:
 
         int toplam4 = 0;
